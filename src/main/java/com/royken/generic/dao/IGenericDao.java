@@ -7,7 +7,7 @@ import java.util.List;
  *
  * @author KENFACK Valmy-Roi <roykenvalmy@gmail.com>
  * @param <T> The entity class
- * @param <ID>  l'identifiant
+ * @param <ID>  The id
  */
 public interface IGenericDao<T, ID extends Serializable> {
     /**
